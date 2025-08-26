@@ -3,14 +3,14 @@ html {
 }
 
 body {
-    background-color: darksalmon;
+    background-color: yellow;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 nav {
-    background-color: #fff0f0;
+    background-color: green;
     padding: 10px;
     text-align: center;
 }
@@ -90,4 +90,5 @@ footer {
     padding: 20px;
     margin-top: 30px;
     color: #444;
+
 }
