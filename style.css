@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: darksalmon;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #fff0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: tomato;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+aside{
+    color: black;
+    width: 40%;
+    padding-left: 12px;
+    margin-left: 12px;
+    background-color: darkslategray;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end;
+    gap: 40px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.profile-container main {
+    flex: 1;
+    text-align: center;
+    margin-left: 700px;
+
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+.collage {
+    padding: 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+
+.grid img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #fff0f0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #444;
+}
